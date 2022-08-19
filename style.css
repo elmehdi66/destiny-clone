@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+}
+
+
+header{
+     background:linear-gradient(to right, rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.562) ) ,url(images/hero3.jpg) no-repeat center center ; 
+     background-size: cover;
+}
+
+.hero-title{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76.8px;
+    
+}
+
+.features img:hover{
+    border: 1px solid purple;
+  
+}
+.features img {
+    border-radius: 50%;
+}
+.back{
+    background-color:#f3f3f3 ;
+}
+.beforee li::before{
+    content: '✓ ';
+}
+.ratings{
+    margin-right:10px;
+  }
+  
+  .ratings i{
+    
+    color:#cecece;
+    font-size:32px;
+  }
+  
+  .rating-color{
+    color:#fbc634 !important;
+  }
+  .info{
+    background:  linear-gradient(to right, rgba(255, 255, 255, 0.925), rgba(128, 128, 128, 0.082)),url('images/feature_bg.jpg') center center no-repeat;
+    background-size:cover;
+    
+  }
+  .btn-purple{
+    color: white;
+    background-color: #5924EC;
+    border-radius: 0 !important;
+    font-size: 12px;
+  }
+
+  .btn-purple:hover{
+    color: white !important;
+    border: 1px solid #5924EC;
+
+  }
+  .plans{
+    background-color: #F3F3F3;
+  }
