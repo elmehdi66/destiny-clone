@@ -64,3 +64,30 @@ header{
   .plans{
     background-color: #F3F3F3;
   }
+
+  @media screen and (max-width:600px){
+  header{
+    background-color: rgba(1, 1, 29, 0.671) !important;
+    background: none;
+    background-image: none;
+  }
+  .hero-title{
+    font-size: 26px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .mbl{
+    padding: 0 !important;
+    margin: 5px !important;
+
+  }
+
+  }
